@@ -1,0 +1,12 @@
+{{- define "main" -}}
+<h1>{{ .Title }}</h1>
+<ul>
+{{- range .Sections.ByWeight -}}
+<li>
+<a href="{{ .Permalink }}">{{ .Title }}</a>
+</li>
+{{- end -}}
+</ul>
+{{- partial "table-of-contents.html" . -}}
+{{- .Content -}}
+{{- end -}}

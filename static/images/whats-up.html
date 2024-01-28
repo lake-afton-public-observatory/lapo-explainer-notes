@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Developer Notes: 
+    The following details how this whats-up.html page is implemented and functions:
+
+    This page, whats-up.html, is the primary template page for displaying what objects
+    are currently being shown in the observatory's main telescope.
+    The page is dynamically generated based on the provisioning of the following parameters
+    in the querystring:
+        name
+        desc
+        image
+    The parameters are optional and the values, when provided, are dynamically placed within 
+    div elements of the page.
+
+    The image parameter controls how the layout of the page is rendered:
+        - If no value for image is provided, then the name and desc are displayed centered in the page.
+        - If the value of image is "other", then the name and desc are displayed off to the left to 
+            allow room for placing an image from another source (photo viewer, etc...) in the blank 
+            space on the right. The javascript and css withing this html page control the display layout
+        - Otherwise, the image specified by the filename is displayed
+
+    The object markdown pages, e.g., m13.md, contain the link that provides the values of the 
+    parameters and uses the following reference javascript file to create the dynamic link for 
+    the object, displayed as -- what's up -- in the upper right corener of the object page:
+
+        js/whatsup.js
+
+    See the whats-up.md for more detail on how to manually construct the querystring for custom display
+    of What's Up information.
+    
+-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Object and Program notes for use during the public program at the Lake Afton Public Observatory's 16-inch telescope">
+        <meta name="author" content="Chris Ketron">
+        <link rel="canonical" href="http://lake-afton-presenter-notes.readthedocs.io/en/latest/">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <title>Lake Afton Public Observatory</title>
+        <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/darcula.min.css">
+        <link href="/css/nightvision.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="/js/jquery-1.10.2.min.js" defer></script>
+        <script src="/js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+    <style>
+        body { overflow:hidden;}
+        table { background-color: black;width: 100%;margin:auto;text-align: center;}
+        tr { background-color: black; text-align: center;}
+        td { background-color: black; text-align: center;}
+        h2 { font-weight:900; }
+        img { max-width: 100%; display: block; }
+        div#logoDiv {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: 50px;
+            left: 50px;
+            width: 400px;
+            height: 300px;
+            /* border: 3px solid red; */
+        }
+        div#descDiv {
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            top: 350px;
+            left: 50px;
+            width: 400px;
+            height: 300px;
+            /* border: 3px solid red;  */
+        }
+        div#objectImage { 
+            position: absolute;
+            text-align: center;
+            display: flex; 
+            align-items: center;
+            justify-content: center;
+            /* top: 50px; */
+            right: 10px;
+            /* width: 900px;
+            height: 650px; */
+            width: 75%;
+            height: 100%;
+             /* border: 3px solid red;  */
+        }  
+        div#objectImage img {
+            /* height: 100%; */
+            width: 100%;
+        }
+     </style>
+     <script>
+        // The following sourced from https://davidwalsh.name/query-string-javascript
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        };
+
+        function loadObjectInfo()
+        {
+            var image = getUrlParameter("image");
+            var name = getUrlParameter("name");
+            var desc = getUrlParameter("desc");
+
+            document.getElementById("objectName").innerHTML = "<h2>" + name + "</h2>";
+            document.getElementById("objectDescription").innerHTML = "<h3>" + desc + "</h3>";
+            if (image == "other")
+            {
+                document.getElementById("objectImage").innerHTML = "";
+            }
+            else if (image != "" )
+            {
+                document.getElementById("objectImage").innerHTML =
+                    '<a href="/notes/references/image-credits/#' + name.toLowerCase().replace(" ","-") + '"><img src="/notes/images/whats-up/' 
+                        + image + '" title="Image Credit: ' + name + '"/><br/>&nbsp;</a>';
+            }
+            else
+            {
+                document.getElementById("objectImage").innerHTML = "";
+
+                logodiv = document.getElementById("logoDiv");
+                logodiv.margin = "auto";
+                logodiv.style.top =  50;
+                logodiv.style.right = 0;
+                logodiv.style.bottom = 0;
+                logodiv.style.left = 0;
+                logodiv.style.width = "100%";
+
+                descdiv = document.getElementById("descDiv");
+                descdiv.margin = "auto";
+                descdiv.margin = "auto";
+                descdiv.style.top =  50;
+                descdiv.style.right = 0;
+                descdiv.style.bottom = 0;
+                descdiv.style.left = 0;
+                descdiv.style.width = "100%";
+            }
+        };
+        </script>
+    <body style='color:#f00;background:#000;' onload="loadObjectInfo()">
+        
+        <div id=objectImage >
+            <img src="/notes/images/whats-up/empty.jpg" title="name"/><br/>
+        </div>
+        
+        <div id=logoDiv >
+            <img src="/notes/images/logo-lapo.svg" width="250" height="250" title="LAPO"/>
+        </div>
+
+        <div id=descDiv><h1>Live at the Scope:</h1>
+            <div id=objectName><h2>name</h2></div>
+            <div id=objectDescription><h3>desc</h3></div>
+        </div>
+            
+    </body>
+</html>
+

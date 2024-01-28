@@ -1,0 +1,20 @@
+baseURL = "https://lapo.cloud/notes"
+languageCode = "en-us"
+title = "Lake Afton Public Observatory - Presenter Notes"
+theme = "hugo-theme-techdoc"
+uglyURLs = false
+
+[outputs]
+home = [ "HTML", "JSON"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Params ##############################
+
+[params]
+    menu_style = "slide-menu" 
+    ordersectionsby = "weight"
+
+    custom_font_color = "#ff0000"
+    custom_background_color = "#000000"

@@ -1,0 +1,9 @@
+[
+    {{ range $index, $value := .Site.Pages  }}{{ if not .Params.exclude_search }}{{ if $index }}, {{ end }}
+    {
+        "url": "{{ .RelPermalink }}",
+        "title": "{{ .Title }}",
+        "description": "{{ .Description }}",
+        "content": {{ .Content | plainify | jsonify }}
+    }{{ end }}{{ end }}
+]

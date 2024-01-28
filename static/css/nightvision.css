@@ -1,0 +1,66 @@
+
+body {
+    font-family: "ubuntu", sans-serif;
+    background: black;
+    color:red;
+}
+
+/*Font Styles*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: "industry-inc-base", sans-serif;
+    color: red;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+    color: limegreen;
+}
+.lead {
+    /*font-family:"Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: "industry-inc-base", sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    letter-spacing: 0.0312em;
+    color: limegreen; /* #B1B7B9; */
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #222222;
+}
+.table-hover>tbody>tr:hover>td, 
+.table-hover>tbody>tr:hover>th {
+   background-color: #222222;
+}
+.bs-sidenav {
+    background-image: url("");
+    font-size: 12px;
+}
+.well {
+    background-color: #222222;
+    color:red;
+}
+.navbar-brand{
+    background-color: #222222;
+    color:red;
+}
+
+.bs-sidenav.well {
+    padding: 0;
+    max-height:85vh;
+    overflow-x: auto; 
+    overflow-y: auto;
+}
+
+a {
+    color:red;
+    /* text-decoration: underline; */
+}
+
+a:hover {
+    background-color: black;
+    color:red;
+}
+.label[href]:hover, .label[href]:focus {
+    background-color: black;
+    color:red;
+    text-decoration: none;
+    cursor: pointer;
+}
