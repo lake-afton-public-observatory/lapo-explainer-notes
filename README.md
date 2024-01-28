@@ -8,7 +8,7 @@ This project consists of static web pages providing notes of the object and prog
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [Build and Deployment](#build-and-deployment) below for notes on how to deploy the project on a live system.
 
 
-### Technical Documents  
+### Technical Documents 
 
 // TODO: Review these comments for accuracy and any necessary updates...
 
@@ -65,7 +65,7 @@ This project was built using the following environment components:
 //        these new HUGO Framework based pages...
 
 The following are the steps I used to create the fresh Explainer Notes project, 
-and these notes can be used for creating a fresh, brand-new MkDocs project.
+and these notes can be used for creating a fresh, brand-new project.
 However, if you are just cloning the existing Explainer Notes project from GitHub, then you can skip these steps and go directly to [Clone this Project](#clone-this-project)
  	
 ### Virtual Environment
@@ -98,58 +98,41 @@ The following *must* be done from your local github\lapo-explainer-notes project
 pip install -r pip-dependencies.txt
 ```
 
-... for manual installation ... do the following...
-
-From your project folder, PIP install MKDocs:
-
-```python
-pip install mkdocs
-```
-reference [MKDocs](http://www.mkdocs.org/) for more information 
-
-Theme 
-This project uses the MkDocs Bootswatch Theme: [Cyborg](http://mkdocs.github.io/mkdocs-bootswatch/#cyborg)
-
-```python
-pip install mkdocs-bootswatch
-```
-
 ### Distance Data
 
 Javascripts have been added to the project, see docs\js\utils.js and docs\init\initialize-json.py, both of these work to create and update ***current*** distance information for each object within the Solar System on pages for each Solar System object. Once the site is up, visit [The Moon > Overview](http://localhost:8000/solar-system/moon/) for example.
 
-Before starting up the MKDocs server, initialize the Distance Data file with the following command:
+Before starting up the web server, initialize the Distance Data file with the following command:
 ```python
 python ../docs/init/initialize_json.py
 ```
 
-### Start MkDocs Server - for local testing
+### Start Hugo Server - for local testing
 To start the Hugo dev server for testing.
-From the lapo-xplainer-notes folder, execute the following command
+From the lapo-explainer-notes folder, execute the following command
 
 	hugo server -D
 
-You can then open the local site for testing:<br/>
-	http://127.0.0.1:8000/
+You can then open the local site (url displayed in the output from above conmand) for testing:<br/>
 	
 ## Clone this Project
 
-From the GitHub repository: https://github.com/caketron/lapo-explainer-notes
-select Clone and copy the URL to the repo: https://github.com/caketron/lapo-explainer-notes.git
+From the GitHub repository: https://github.com/lake-afton-public-observatory/lapo-explainer-notes.git
+select Clone and copy the URL to the repo.
 
 Then from your local project folder (I am using c:\git\github), execute the following git command:
 ```git
-git clone https://github.com/caketron/lapo-explainer-notes
+git clone https://github.com/lake-afton-public-observatory/lapo-explainer-notes.git
 ```
 
 ## Build and Deployment
 Once all editing has been completed, do a final build of the document site for deployment
 
 ```
-mkdocs build
+hugo
 ```
 
-This command will generate the various pages from the markdown files and place them in the "site" sub-directory.
+This command will generate the various pages from the markdown files and place them in the "public" sub-directory. This is the folder that contains the generated static website and should be copied to the deployment destination.
 
 You can use the Python Simple HTTP server that comes with Python to start up a local server.
 Change directory into the Site folder and execute the following:
@@ -164,11 +147,9 @@ Then visit the site by visiting the following address in your browser:
 
 ## Simplified Deployment
 
-Once the build has completed, a **Site** folder will be found in your project repo folder.
+Once the build has completed, a **public** folder will be found in your project repo folder.
 
-Copy the venv folder and contents of the resources folder into this new **Site** folder.
-
-This **Site** folder now contains the resources for a static website deployment.  Copy the contents to a destination server and execute the startExplainerNotes.bat for the target browser to host the notes locally, e.g., ... the observatory telescope computer.
+This **public** folder now contains the resources for a static website deployment.  Copy the contents to a destination server and execute the startExplainerNotes.bat for the target browser to host the notes locally, e.g., ... the observatory telescope computer.
 
 ## Versioning
 For the sake of tracking version history, the version numbering will follow a year, month, date numbering sequence, following by a sequence id to account for multiple versions within a single date, in the following format:

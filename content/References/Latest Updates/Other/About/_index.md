@@ -3,7 +3,7 @@ title: About These Notes ...
 weight: 1
 lastmod: "2022-08-27"
 reviewer: "Chris Ketron"
-notes: "TODO: Needs review and update - remove MKDocs references"
+notes: 
 ---
 
 The content for these Explainer Notes are managed under the  
