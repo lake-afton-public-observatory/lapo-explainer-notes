@@ -1,1 +1,3 @@
+# The local Hugo generated folder containing the static content for deployment
+# does not need to be stored in the source repo... 
 public/ 

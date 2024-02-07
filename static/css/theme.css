@@ -728,6 +728,7 @@ main {
           order: -1;
   overflow-x: hidden;
   overflow-y: scroll;
+  scrollbar-color: red black;
 }
 
 @media screen and (max-width: 480px) {
