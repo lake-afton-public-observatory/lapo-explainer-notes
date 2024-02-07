@@ -1,6 +1,6 @@
 baseURL = "https://lapo.cloud/notes"
 languageCode = "en-us"
-title = "Lake Afton Public Observatory - Presenter Notes"
+title = "Lake Afton Public Observatory - Explainer Notes"
 theme = "hugo-theme-techdoc"
 uglyURLs = false
 

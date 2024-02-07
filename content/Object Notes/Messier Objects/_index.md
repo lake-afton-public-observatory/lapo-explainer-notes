@@ -49,7 +49,7 @@ This is the list of the 110 objects in the Messier Catalogue with their designat
 |[M37](/notes/object-notes/star-clusters/open/m37/)|NGC 2099||Open cluster|Auriga|
 |[M38](/notes/object-notes/star-clusters/open)[](/m38/)|NGC 1912|Starfish Cluster|Open cluster|Auriga|
 |[M39](/notes/object-notes/star-clusters/open)[](/m39/)|NGC 7092||Open cluster|Cygnus|
-|M40||Winnecke 4|Double star|Ursa Major|
+|[M40](/notes/object-notes/stars/non-contrast-optical-double)[](/m40)||Winnecke 4|Double star|Ursa Major|
 |[M41](/notes/object-notes/star-clusters/open)[](/m41/)|NGC 2287||Open cluster|Canis Major|
 |[M42](/notes/object-notes/nebulae/diffuse/m42/)|NGC 1976|Orion Nebula|Emission-reflection nebula|Orion|
 |[M43](/notes/object-notes/nebulae/diffuse)[](/m43/)|NGC 1982|De Mairan’s Nebula|Emission-reflection nebula|Orion|

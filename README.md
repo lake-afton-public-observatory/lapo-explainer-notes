@@ -10,8 +10,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Technical Documents 
 
-// TODO: Review these comments for accuracy and any necessary updates...
-
 Use the `Review Block` (_see section below_) at the bottom of each page within these Technical Documents to track Review and remaining tasks for the content of the page.  @mention specific project team members to capture their attention that input is needed to clarify and review the content (example below):
 
 ### Hugo Static Web Site Framework
@@ -61,9 +59,6 @@ This project was built using the following environment components:
 
 ## Project Setup
 
-// TODO:  The notes below this line need reviewed and updated to support 
-//        these new HUGO Framework based pages...
-
 The following are the steps I used to create the fresh Explainer Notes project, 
 and these notes can be used for creating a fresh, brand-new project.
 However, if you are just cloning the existing Explainer Notes project from GitHub, then you can skip these steps and go directly to [Clone this Project](#clone-this-project)
@@ -74,6 +69,7 @@ Create a virtual environment for the Explainer Notes Project.
 Begin by creating a directory for the Python virtual environment;
 
 Example... from within your lapo-explainer-notes project folder
+
 ```
 virtualenv venv
 ```
@@ -81,6 +77,7 @@ virtualenv venv
 #### Activate the virtual environment:
 
 You can do this from any folder location, recommend from your local github\lapo-explainer-notes project folder
+
 ```
 venv\Scripts\activate.bat
 ```
@@ -103,11 +100,13 @@ pip install -r pip-dependencies.txt
 Javascripts have been added to the project, see docs\js\utils.js and docs\init\initialize-json.py, both of these work to create and update ***current*** distance information for each object within the Solar System on pages for each Solar System object. Once the site is up, visit [The Moon > Overview](http://localhost:8000/solar-system/moon/) for example.
 
 Before starting up the web server, initialize the Distance Data file with the following command:
+
 ```python
 python ../docs/init/initialize_json.py
 ```
 
 ### Start Hugo Server - for local testing
+
 To start the Hugo dev server for testing.
 From the lapo-explainer-notes folder, execute the following command
 
@@ -121,11 +120,13 @@ From the GitHub repository: https://github.com/lake-afton-public-observatory/lap
 select Clone and copy the URL to the repo.
 
 Then from your local project folder (I am using c:\git\github), execute the following git command:
+
 ```git
 git clone https://github.com/lake-afton-public-observatory/lapo-explainer-notes.git
 ```
 
 ## Build and Deployment
+
 Once all editing has been completed, do a final build of the document site for deployment
 
 ```
@@ -152,6 +153,7 @@ Once the build has completed, a **public** folder will be found in your project 
 This **public** folder now contains the resources for a static website deployment.  Copy the contents to a destination server and execute the startExplainerNotes.bat for the target browser to host the notes locally, e.g., ... the observatory telescope computer.
 
 ## Versioning
+
 For the sake of tracking version history, the version numbering will follow a year, month, date numbering sequence, following by a sequence id to account for multiple versions within a single date, in the following format:
 
 	yyyy.MM.dd.#
@@ -160,6 +162,7 @@ For the sake of tracking version history, the version numbering will follow a ye
 Use this versioning strategy when applying label to the source.
 
 ## Contributing
+
 Please follow these simple rules when contributing additional content or changes to the notes:
 
 1. Add a note referencing the source of the material that is being added or changed.
@@ -167,9 +170,11 @@ Please follow these simple rules when contributing additional content or changes
 1. Please follow the same formatting, and yes, although a bit tedious, cookie crumb heading and footing references.
 
 ## Authors
+
 **Chris Ketron** - Initial compilation of LAPO source material and additional research and validation into these MarkDown notes pages.
 
 ## Acknowledgments
+
 Thanks to former staff of the Lake Afton Public Observatory while under the pervue of
 the Wichita State University Physics Dept, for the original explainer and program notes source
 material used for the creation of these Explainer Notes.
