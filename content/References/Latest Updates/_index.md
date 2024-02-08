@@ -24,6 +24,6 @@ Up Next...
 
 <br/>
 
-Please email _**caketron@cox.net**_ with any suggestions, corrections or additional content ideas.  
+Please email _**[cketron@lakeafton.com](mailto://cketron@lakeafton.com>)**_ with any suggestions, corrections or additional content ideas.  
 
 </details>

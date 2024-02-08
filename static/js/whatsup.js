@@ -3,7 +3,7 @@
 	bodyID.setAttribute("onload", "showWhatsUp();");
 
 	function showWhatsUp() {
-        if ( window.location.hostname != "lake-afton-presenter-notes.readthedocs.io")
+        if ( window.location.hostname != "lake-afton-explainer-notes.readthedocs.io")
 		{ 
 			document.getElementById("whatsup").innerHTML = 
 			"<span style='float:right;'>-- <a href='' onclick='goWhatsUp()'>what's up?</a> --</span>"; 

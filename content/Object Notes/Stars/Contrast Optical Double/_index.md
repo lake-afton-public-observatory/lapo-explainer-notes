@@ -7,7 +7,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-### General Information about   
+### General Information   
 
 1.	An optical double star is simply two (or more) stars that appear to be in the same direction in the sky.  They do NOT revolve around each other like the Earth orbits the sun. 
 

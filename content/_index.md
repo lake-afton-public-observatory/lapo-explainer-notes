@@ -18,7 +18,7 @@ exclude_search: True
 
 <br/>
 
-<span style='float:right;font-size: 140%;'>[Presenter Notes](/notes/object-notes) ... </span>
+<span style='float:right;font-size: 140%;'>[Explainer Notes](/notes/object-notes) ... </span>
 
 </center>
 

@@ -9,14 +9,14 @@ notes: ""
 <script src="/notes/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="Chalawan"
-	var objectDesc ="47 Ursae Majoris<br/>Yellow Dwarf Solar-type Star<br/>with Planets<br/>in the Constellation<br/>Ursa Major"
+	var objectDesc ="47 Ursae Majoris<br/>Yellow Dwarf Solar-type Star<br/>with Exoplanets<br/>in the Constellation<br/>Ursa Major"
 	var objectImage=""
 </script>
 
 <span style='float:right;'><div id=whatsup></div></span>
 
 Chalawan  
-Yellow Dwarf Star with Planets  
+Yellow Dwarf Star with Exoplanets  
 
 |   |   |   |   |
 |--:|:--|--:|:--|
@@ -95,17 +95,17 @@ Yellow Dwarf Star with Planets
 |   |   |   | 
 |---|---|---|
 |**Item**|**Updated**|**Notes**| 
-|Coordinates	05-03-2003	planetquest.jpl.nasa.gov and SIMBAD
-Magnitude	05-03-2003	planetquest, SIMBAD, and Geoff Marcy’s site exoplanets.org
-Distance	05-03-2003	planetquest, SIMBAD, and exoplanets
-Actual Brightness		
-Surface Temperature	05-03-2003	from spectral type, and type/temp chart from The Flamsteed Collection
-Diameter	--	
-Mass	05-03-2003	from exoplanets.org
-Surface Gravity	--	
-Surface Composition	05-03-2003	OK for all stars
-Spectral Type	05-03-2003	OK with SIMBAD, exoplanets.org
-Density	--	
-Other Information	05-03-2003	from planetquest and exoplanets.org
-Third Planet (d)	03-24-2011	from Wikipedia.org
+|Coordinates|05-03-2003|planetquest.jpl.nasa.gov and SIMBAD
+Magnitude|05-03-2003|planetquest, SIMBAD, and Geoff Marcy’s site exoplanets.org
+Distance|05-03-2003|planetquest, SIMBAD, and exoplanets
+Actual Brightness |-|-
+Surface Temperature|05-03-2003|from spectral type, and type/temp chart from The Flamsteed Collection
+Diameter	|-|-	
+Mass|05-03-2003|from exoplanets.org
+Surface Gravity	|-|-	
+Surface Composition|05-03-2003|OK for all stars
+Spectral Type|05-03-2003|OK with SIMBAD, exoplanets.org
+Density	|-|-	
+Other Information|05-03-2003|from planetquest and exoplanets.org
+Third Planet (d)|03-24-2011|from Wikipedia.org
 </details>

@@ -14,7 +14,7 @@ notes: ""
   - [Contrast Optical Double Stars](#contrast-optical-double-stars)
   - [non-Contrast Multiple Stars](#non-contrast-multiple-stars)
   - [non-Contrast Optical Double Stars](#non-contrast-optical-double-stars)
-  - [Stars with Planets](#stars-with-planets)
+  - [Stars with Exoplanets](#stars-with-exoplanets)
 - [STAR CLUSTERS](#star-clusters)
   - [Open Star Clusters](#open-star-clusters)
   - [Globular Star Clusters](#globular-star-clusters)
@@ -190,7 +190,7 @@ updated 04-25-2003
 
 updated 04-24-2003
 
-### Stars with Planets
+### Stars with Exoplanets
 
 ---
 <span style='float:right;'>[top](#)</span>
