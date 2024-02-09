@@ -1,6 +1,8 @@
 
 # Lake Afton Public Observatory Explainer Notes
 
+[![Deploy Hugo site to Pages](https://github.com/lake-afton-public-observatory/lapo-explainer-notes/actions/workflows/hugo.yml/badge.svg)](https://github.com/lake-afton-public-observatory/lapo-explainer-notes/actions/workflows/hugo.yml)
+
 This project consists of static web pages providing notes of the object and program notes for use during the public program at the Lake Afton Public Observatory's 16-inch [telescope](telescope/telescope.md):
 
 ## Getting Started
