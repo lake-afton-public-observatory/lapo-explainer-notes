@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="M51"
 	var objectDesc ="Whirlpool<br/>Spiral Galaxy<br/>in the Constellation<br/>Canis Venatici"

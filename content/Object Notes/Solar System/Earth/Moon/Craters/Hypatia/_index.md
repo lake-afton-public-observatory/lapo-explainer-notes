@@ -18,7 +18,7 @@ notes: ""
 ---
 <span style='float:right;'>[top](#)</span>
 
-1. Apollo 11 landed at just south of crater [Hypatia](/notes/object-notes/solar-system/earth/moon/craters/hypatia/#) at:  
+1. Apollo 11 landed at just south of crater [Hypatia](/object-notes/solar-system/earth/moon/craters/hypatia/#) at:  
    
    |     |    |
    | ------------: | :-------------- | 

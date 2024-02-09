@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: "Please provide references for where details were obtained for future update and confirmation..."
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="Comet Encke"
 	var objectDesc ="Periodic Comet"

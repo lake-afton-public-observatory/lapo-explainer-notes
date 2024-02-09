@@ -6,8 +6,8 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
-<script src="/notes/js/utils.js"></script>
+<script src="/js/whatsup.js"></script>
+<script src="/js/utils.js"></script>
 <script type="text/javascript">
 	var objectName ="Venus"
 	var objectDesc ="Earth's Closest Planetary Neighbor"

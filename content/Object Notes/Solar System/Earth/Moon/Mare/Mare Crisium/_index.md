@@ -23,4 +23,4 @@ Sea of Crises
 
 2. Notice mountainous surroundings. These mountains are 13,500 feet above the plain in the south and 14,400 on the north.
 
-3. Notice the 3 craters on the floor - [Picard](/notes/object-notes/solar-system/earth/moon/craters/picard/#), Pierce, and Graham.
+3. Notice the 3 craters on the floor - [Picard](/object-notes/solar-system/earth/moon/craters/picard/#), Pierce, and Graham.

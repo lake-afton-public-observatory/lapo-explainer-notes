@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="Capella"
 	var objectDesc ="Alpha Aurigae<br/>Red (Yellow) Giant Star<br/>in the Constellation<br/>Auriga"

@@ -5,7 +5,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="Fomalhaut"
 	var objectDesc ="Alpha Piscis Austrini</br>Blue Star<br/>in the Constellation<br/>Piscis Asutrinus"

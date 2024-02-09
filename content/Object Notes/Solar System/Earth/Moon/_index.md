@@ -7,8 +7,8 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
-<script src="/notes/js/utils.js"></script>
+<script src="/js/whatsup.js"></script>
+<script src="/js/utils.js"></script>
 <script type="text/javascript">
 	var objectName ="The Moon"
     var objectDesc ="Earth's Satellite<br/>1 Lunar Day<br/><h6>706 frames, played at 24 fps = 29.45 seconds = ~1 lunar day"

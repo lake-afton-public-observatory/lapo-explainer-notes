@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="M1"
 	var objectDesc ="Crab Supernova Remnant<br/>Planetary Nebula<br/>in the Constellation Taurus<h6>From five observatories:<br/>VLA / Spitzer / Hubble / XMM-Newton / Chandra X-ray"

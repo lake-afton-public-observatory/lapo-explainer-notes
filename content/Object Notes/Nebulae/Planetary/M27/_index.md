@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="M27"
 	var objectDesc ="Dumbbell<br/>Planetary Nebula<br/>in the Constellation<br/>Vulpecula"

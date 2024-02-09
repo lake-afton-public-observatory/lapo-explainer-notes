@@ -10,7 +10,7 @@ notes: ""
 
 Use the following to display a customized What's Up page:
 
-<form action="/notes/images/whats-up.html" target="_blank">
+<form action="/images/whats-up.html" target="_blank">
   Object Name<br/>&nbsp;&nbsp;&nbsp;<input type="text" name="name"><br/>
   Object Description<br/>&nbsp;&nbsp;&nbsp;<textarea cols="100" name="desc"></textarea><br/>
   &nbsp;&nbsp;&nbsp; - use of HTML codes, like line break: &lt;br/&gt;, are allowed<br/>

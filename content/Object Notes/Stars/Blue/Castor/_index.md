@@ -5,7 +5,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="Castor"
 	var objectDesc ="Alpha Geminorum</br>Blue Star<br/>Non-Contrast Multiple Star System<br/>in the Constellation<br/>Gemini"

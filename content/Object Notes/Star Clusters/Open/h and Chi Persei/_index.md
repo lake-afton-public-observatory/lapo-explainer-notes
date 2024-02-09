@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="h and Chi Persei"
 	var objectDesc ="Double Open Star Cluster<br/>NGC 869 and NGC 884<br/>in the Constellation<br/>Perseus"

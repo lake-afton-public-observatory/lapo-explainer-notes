@@ -18,5 +18,5 @@ notes: ""
 ---
 <span style='float:right;'>[top](#)</span>
 
-1. These mountains appear to be a continuation of the Apennines except for a gap of some 60 miles to the west of [Eratosthenes](/notes/object-notes/solar-system/earth/moon/craters/eratosthenes/#).   
-   They may have constituted the original southern wall of [Mare Imbrium](/notes/object-notes/solar-system/earth/moon/mare/mare-imbrium/#)
+1. These mountains appear to be a continuation of the Apennines except for a gap of some 60 miles to the west of [Eratosthenes](/object-notes/solar-system/earth/moon/craters/eratosthenes/#).   
+   They may have constituted the original southern wall of [Mare Imbrium](/object-notes/solar-system/earth/moon/mare/mare-imbrium/#)

@@ -20,6 +20,6 @@ Sea of Rains
 ---
 <span style='float:right;'>[top](#)</span>
 
-1. This is the largest maria on the moon with over 700 craters on its surface. Note the [Apennine Mountain](/notes/object-notes/solar-system/earth/moon/mountains/apennine/#) Range to the east, especially Mt. Huygens which rises to 20,000 feet.
+1. This is the largest maria on the moon with over 700 craters on its surface. Note the [Apennine Mountain](/object-notes/solar-system/earth/moon/mountains/apennine/#) Range to the east, especially Mt. Huygens which rises to 20,000 feet.
 
 2. The large basin which originally occupied this area was formed by the impact of an object ranging from 40 miles in diameter for a 10 mile per second impact to 118 miles for a 2 mile per second impact. A faint outline of a crater 420 miles across has been seen.

@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="M66"
 	var objectDesc ="Spiral Galaxy<br/><br/>Leo Triplet:<br/>NGC 3828, upper left<br/>M65, upper right<br/>M66, lower right<br/>in the Constellation<br/>Leo"

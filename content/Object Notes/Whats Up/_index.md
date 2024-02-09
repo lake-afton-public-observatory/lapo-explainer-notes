@@ -18,16 +18,16 @@ NOTES:
 
 If needed, you can display an empty page using the following URL:
 
-> [/notes/images/whats-up.html](/notes/images/whats-up.html)
+> [/images/whats-up.html](/images/whats-up.html)
 
 You can force a title of the object into the page by providing the _name_ parameter... with centered text...
 
-> [/notes/images/whats-up.html?**name=Saturn**](/notes/images/whats-up.html?name=Saturn)
+> [/images/whats-up.html?**name=Saturn**](/images/whats-up.html?name=Saturn)
 
 ... or, specify "other" for the _image_ parameter to clear an area to display an image from SkyTools:
 
-> [/notes/images/whats-up.html?**name=Saturn&image=other**](/notes/images/whats-up.html?name=Saturn&image=other)
+> [/images/whats-up.html?**name=Saturn&image=other**](/images/whats-up.html?name=Saturn&image=other)
 
 Most pages will generate the full _name_, _description_ and _image_ parameters similar to the following,  for object M13:
 
-> [/notes/images/whats-up.html?name=M13&desc=Globular%20Star%20Cluster%20in%20Hercules&image=m13.jpg](/notes/images/whats-up.html?name=M13&desc=Globular%20Star%20Cluster%20in%20Hercules&image=m13.jpg)
+> [/images/whats-up.html?name=M13&desc=Globular%20Star%20Cluster%20in%20Hercules&image=m13.jpg](/images/whats-up.html?name=M13&desc=Globular%20Star%20Cluster%20in%20Hercules&image=m13.jpg)

@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="NGC 6826"
 	var objectDesc ="Blinking<br/>Planetary Nebula<br/>in the Constellation<br/>Cygnus"

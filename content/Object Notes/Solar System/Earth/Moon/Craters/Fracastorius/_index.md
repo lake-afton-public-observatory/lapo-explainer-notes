@@ -25,7 +25,7 @@ notes: ""
 
 3. Notice that its northern wall has disappeared under the molten lava of the mare that flooded its interior, leaving only mounds appearing in the lunar mare to mark the outline. This is a fine example of a ruined ring. On the floor are many objects, a circle of hills near the center, craterlets, and clefts. Of the latter, the most prominent lies on the south where it crosses the floor.
 
-4. The lava that formed [Mare Nectaris](/notes/object-notes/solar-system/earth/moon/mare/mare-nectaris/#) also invaded this crater, so the structure now forms a bay like extension.
+4. The lava that formed [Mare Nectaris](/object-notes/solar-system/earth/moon/mare/mare-nectaris/#) also invaded this crater, so the structure now forms a bay like extension.
 
 5. The remainder of the rim is heavily worn and covered in lesser impact craters, leaving little of the original rim intact.
 

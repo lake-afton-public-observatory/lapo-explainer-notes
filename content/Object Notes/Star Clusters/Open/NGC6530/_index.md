@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="NGC 6530"
 	var objectDesc ="Open Star Cluster<br/>within M8 - the Lagoon Nebula<br/>in the Constellation<br/>Sagittarius"

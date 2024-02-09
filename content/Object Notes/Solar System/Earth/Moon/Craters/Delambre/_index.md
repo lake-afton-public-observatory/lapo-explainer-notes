@@ -18,7 +18,7 @@ notes: ""
 ---
 <span style='float:right;'>[top](#)</span>
 
-1. Apollo 16 just southwest of the crater [Delambre](/notes/object-notes/solar-system/earth/moon/craters/delambre/#) at:
+1. Apollo 16 just southwest of the crater [Delambre](/object-notes/solar-system/earth/moon/craters/delambre/#) at:
 
    |     |    |
    | ------------: | :-------------- | 

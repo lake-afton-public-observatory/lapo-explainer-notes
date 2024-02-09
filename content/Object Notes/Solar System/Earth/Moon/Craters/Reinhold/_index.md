@@ -18,7 +18,7 @@ notes: ""
 ---
 <span style='float:right;'>[top](#)</span>
 
-1. Apollo 12 landed just north of the crater [Reinhold](/notes/object-notes/solar-system/earth/moon/craters/reinhold/#) at:
+1. Apollo 12 landed just north of the crater [Reinhold](/object-notes/solar-system/earth/moon/craters/reinhold/#) at:
 
    |     |    |
    | ------------: | :-------------- | 

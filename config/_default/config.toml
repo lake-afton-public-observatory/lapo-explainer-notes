@@ -1,4 +1,4 @@
-baseURL = "https://lapo.cloud/notes"
+baseURL = "https://lake-afton-public-observatory.github.io/"
 languageCode = "en-us"
 title = "Lake Afton Public Observatory - Explainer Notes"
 theme = "hugo-theme-techdoc"

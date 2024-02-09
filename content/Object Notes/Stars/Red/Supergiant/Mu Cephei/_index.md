@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="Mu Cephei"
 	var objectDesc ="Red Supergiant Star<br/>One of the largest known stars.<br/>Located in the Constellation<br/>Cepheus"

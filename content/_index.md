@@ -3,7 +3,7 @@ title: Home
 exclude_search: True
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="Welcome!"
 	var objectDesc ="Stay tuned to this space for the next object appearing in the telescope..."
@@ -18,7 +18,7 @@ exclude_search: True
 
 <br/>
 
-<span style='float:right;font-size: 140%;'>[Explainer Notes](/notes/object-notes) ... </span>
+<span style='float:right;font-size: 140%;'>[Explainer Notes](./object-notes) ... </span>
 
 </center>
 

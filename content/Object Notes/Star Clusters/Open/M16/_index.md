@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="M16"
 	var objectDesc ="Eagle Nebula<br/>and Open Star Cluster<br/>in the Constellation<br/>Serpens"

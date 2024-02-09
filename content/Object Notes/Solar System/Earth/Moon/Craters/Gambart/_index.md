@@ -18,7 +18,7 @@ notes: ""
 ---
 <span style='float:right;'>[top](#)</span>
 
-1. Apollo 14 landed just southwest of the crater [Gambart](/notes/object-notes/solar-system/earth/moon/craters/gambart/#) at:
+1. Apollo 14 landed just southwest of the crater [Gambart](/object-notes/solar-system/earth/moon/craters/gambart/#) at:
 
    |     |    |
    | ------------: | :-------------- | 

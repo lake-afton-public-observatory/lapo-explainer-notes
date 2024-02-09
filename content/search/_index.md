@@ -82,7 +82,7 @@ window.onload = function() {
     searchResults = document.getElementById('search-results')
 
     // request and index documents
-    fetch('/notes/index.json', {
+    fetch('/index.json', {
         method: 'get'
     }).then(
         res => res.json()

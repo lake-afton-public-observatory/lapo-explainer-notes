@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="Clouds"
 	var objectDesc ="The telescope cannot see through the clouds"
@@ -17,4 +17,4 @@ notes: ""
 
 The telescope cannot see through the clouds.
 
-This would be an excellent evening to turn up the lights and give a [Telescope Tour](/notes/object-notes/telescope/telescope-tour/).
+This would be an excellent evening to turn up the lights and give a [Telescope Tour](/object-notes/telescope/telescope-tour/).

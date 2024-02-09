@@ -6,7 +6,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="Antares"
 	var objectDesc ="Alpha Scorpii<br/>Red Supergiant Star<br/>in the Constellation<br/>Scorpius"

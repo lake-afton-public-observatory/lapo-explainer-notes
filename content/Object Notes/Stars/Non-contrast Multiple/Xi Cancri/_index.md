@@ -5,7 +5,7 @@ reviewer: "Chris Ketron"
 notes: ""
 ---
 
-<script src="/notes/js/whatsup.js"></script>
+<script src="/js/whatsup.js"></script>
 <script type="text/javascript">
 	var objectName ="Xi Cancri"
 	var objectDesc ="Binary (Double) Star<br/>in the Constellation<br/>Cancer"
