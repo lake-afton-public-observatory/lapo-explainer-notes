@@ -19,7 +19,7 @@ notes: ""
 </script>
 <script type="text/javascript">
 	setInterval(function(){
-		fetch("../data.json")
+		fetch("../../data.json")
 			.then(function(response) {
 				return response.json();
 			})
